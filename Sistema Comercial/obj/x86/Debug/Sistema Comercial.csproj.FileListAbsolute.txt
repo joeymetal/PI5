@@ -14,3 +14,18 @@ C:\Users\Joey\Documents\SISCOM\Sistema Comercial\Sistema Comercial\bin\Debug\DB.
 C:\Users\Joey\Documents\SISCOM\Sistema Comercial\Sistema Comercial\bin\Debug\Sistema Comercial.exe.config
 C:\Users\Joey\Documents\SISCOM\Sistema Comercial\Sistema Comercial\obj\x86\Debug\Sistema Comercial.csprojResolveAssemblyReference.cache
 C:\Users\Joey\Documents\SISCOM\Sistema Comercial\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.FrmLogin.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\bin\Debug\Sistema Comercial.exe.config
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema Comercial.exe
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema Comercial.pdb
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema Comercial.csprojResolveAssemblyReference.cache
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form1.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form2.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form3.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form4.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form5.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Form6.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.FrmLogin.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema_Comercial.Properties.Resources.resources
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\obj\x86\Debug\Sistema Comercial.csproj.GenerateResource.Cache
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\bin\Debug\Sistema Comercial.exe
+C:\Users\Joey\Documents\GitHub\PI5\Sistema Comercial\bin\Debug\Sistema Comercial.pdb

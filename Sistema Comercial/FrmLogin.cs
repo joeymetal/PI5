@@ -20,7 +20,6 @@ namespace Sistema_Comercial
         {
             this.Validate();
             this.tblUsuarioBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dBDataSet);
 
         }
 
@@ -37,7 +36,6 @@ namespace Sistema_Comercial
         {
             this.Validate();
             this.tblUsuarioBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dBDataSet);
 
         }
     }

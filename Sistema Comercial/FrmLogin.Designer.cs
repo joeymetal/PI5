@@ -35,10 +35,7 @@
             System.Windows.Forms.Label codigoUsuarioLabel;
             System.Windows.Forms.Label nomeUsuarioLabel1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
-            this.dBDataSet = new Sistema_Comercial.DBDataSet();
             this.tblUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tblUsuarioTableAdapter = new Sistema_Comercial.DBDataSetTableAdapters.tblUsuarioTableAdapter();
-            this.tableAdapterManager = new Sistema_Comercial.DBDataSetTableAdapters.TableAdapterManager();
             this.tblUsuarioBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -54,9 +51,6 @@
             this.tblUsuarioBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.dbDataSet1 = new Sistema_Comercial.DBDataSet();
-            this.tblUsuarioTableAdapter1 = new Sistema_Comercial.DBDataSetTableAdapters.tblUsuarioTableAdapter();
-            this.tableAdapterManager1 = new Sistema_Comercial.DBDataSetTableAdapters.TableAdapterManager();
             this.tblUsuarioDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -77,12 +71,10 @@
             nomeUsuarioLabel = new System.Windows.Forms.Label();
             codigoUsuarioLabel = new System.Windows.Forms.Label();
             nomeUsuarioLabel1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioBindingNavigator)).BeginInit();
             this.tblUsuarioBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -133,25 +125,9 @@
             nomeUsuarioLabel1.TabIndex = 3;
             nomeUsuarioLabel1.Text = "Nome Usuario:";
             // 
-            // dBDataSet
-            // 
-            this.dBDataSet.DataSetName = "DBDataSet";
-            this.dBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // tblUsuarioBindingSource
             // 
             this.tblUsuarioBindingSource.DataMember = "tblUsuario";
-            this.tblUsuarioBindingSource.DataSource = this.dBDataSet;
-            // 
-            // tblUsuarioTableAdapter
-            // 
-            this.tblUsuarioTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.tblUsuarioTableAdapter = this.tblUsuarioTableAdapter;
-            this.tableAdapterManager.UpdateOrder = Sistema_Comercial.DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // tblUsuarioBindingNavigator
             // 
@@ -283,26 +259,6 @@
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
             this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 22);
-            // 
-            // bindingSource1
-            // 
-            this.bindingSource1.DataMember = "tblUsuario";
-            this.bindingSource1.DataSource = this.dbDataSet1;
-            // 
-            // dbDataSet1
-            // 
-            this.dbDataSet1.DataSetName = "DBDataSet";
-            this.dbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblUsuarioTableAdapter1
-            // 
-            this.tblUsuarioTableAdapter1.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager1
-            // 
-            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager1.tblUsuarioTableAdapter = this.tblUsuarioTableAdapter1;
-            this.tableAdapterManager1.UpdateOrder = Sistema_Comercial.DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // tblUsuarioDataGridView
             // 
@@ -455,13 +411,11 @@
             this.Name = "FrmLogin";
             this.Text = "FrmLogin";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioBindingNavigator)).EndInit();
             this.tblUsuarioBindingNavigator.ResumeLayout(false);
             this.tblUsuarioBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblUsuarioDataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -474,10 +428,7 @@
 
         #endregion
 
-        private DBDataSet dBDataSet;
         private System.Windows.Forms.BindingSource tblUsuarioBindingSource;
-        private DBDataSetTableAdapters.tblUsuarioTableAdapter tblUsuarioTableAdapter;
-        private DBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.BindingNavigator tblUsuarioBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
@@ -492,9 +443,6 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton tblUsuarioBindingNavigatorSaveItem;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private DBDataSet dbDataSet1;
-        private DBDataSetTableAdapters.tblUsuarioTableAdapter tblUsuarioTableAdapter1;
-        private DBDataSetTableAdapters.TableAdapterManager tableAdapterManager1;
         private System.Windows.Forms.DataGridView tblUsuarioDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
